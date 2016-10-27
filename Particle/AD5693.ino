@@ -10,7 +10,7 @@
 // AD5693 I2C address is 0x4C(76)
 #define Addr 0x4C
 
-float voltage = 0.0;
+double voltage = 0.0;
 void setup()
 {
   // Set variable
